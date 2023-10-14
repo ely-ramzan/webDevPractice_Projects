@@ -1,0 +1,133 @@
+footer {
+    margin-top: 350px;
+    background-color: #4AB3B9;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .left-footer {
+    flex: 1;
+    color: snow;
+  }
+  
+  .left-footer .talk {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .left-footer .talk_desc {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .left-footer .talk-button {
+    background-color:rgb(6, 80, 80);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .left-footer .talk-button:hover {
+    background-color: #FFFF00;
+    color: #333;
+  }
+  
+  .right-footer {
+    flex: 1;
+    color: snow;
+  }
+  
+  .right-footer .contact {
+    display: flex;
+  }
+  
+  .right-footer .topic {
+    flex: 1;
+    font-size: 1.2rem;
+    /* margin-top: 4rem; */
+    /* margin-left: rem; */
+    margin: 4rem 0 0 6rem;
+    font-style: italic;
+    text-align: justify;
+    color: mintcream;
+  }
+  
+  .right-footer .topic ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .right-footer .detail {
+    flex: 1;
+    font-size: 14px;
+    margin: 4rem 3.5rem 0 0 ;
+    padding: 0 0 0 3%;
+  }
+  
+  .right-footer .detail ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  
+  .right-footer .detail li {
+    color: #FFFF00;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .right-footer .logo {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-footer .logo ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 200px;
+  }
+  
+  .right-footer .logo li {
+    margin-right: 15px;
+  }
+  .right-footer .contact{
+    /* background-color:#47777a; */
+    height: 170px;
+    width: 60%;
+    padding-left: 2%;
+  }
+  .right-footer .logo{
+    /* background-color: red; */
+  }
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-footer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .right-footer {
+      text-align: center;
+    }
+  
+    .right-footer .contact {
+      flex-direction: column;
+    }
+  
+    .right-footer .logo {
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing:0.7px;
+}
+body{
+    background-color: #2F7175;
+    color: snow;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color:#4AB3B9;
+    
+}
+.left{
+    font-weight: normal;
+    font-family: monospace;
+    font-weight: 600px;
+    font-size: xx-large;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 40px;
+
+}
+nav ul li{
+    margin: 0 12px;
+}
+nav ul li a{
+    text-decoration:inherit ;
+    color: inherit;
+    background-color: #2F7175;
+    padding:8px  15px;
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color: #FFFF00;
+    color: #333;
+}
+
+.firstSec{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    /* align-items: center; */
+    
+}
+
+.firstSec > div{
+    width: 30%;
+    /* background-color: red; */
+
+}
+
+
+.right_first{
+    width: 20%;
+    margin: 50px 0;
+    
+}
+.right_first img{
+    width: 130%;
+}
+
+.left_first{
+    margin: 185px 0;
+    font-size: 2rem;
+    letter-spacing: 0.7px;
+}
+
+.left_first > div > span{
+        font-family: 'Handjet', cursive;
+        color: #E0FFFF;
+        /* color: #FFCCFF; */
+        /* text-transform: uppercase; */
+
+}
+
+#element {
+    color: #FFFF00;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 2.5rem;
+    /* letter-spacing:.7em; */
+}
+
+main hr{
+    border: 0;
+    height: 1px;
+    background-color:#47777a;
+}
+.secondSec{
+    padding:4% ;
+}
+
+.work_head{
+    margin: 0 30px;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.grey{
+    color: darkgray; 
+    font-size: smaller;
+}
+.secondSec .box {
+    background: white;
+    width: 74vw;
+    height: 2px;
+    margin: 60px;
+    display:flex;
+}
+.secondSec .vertical{   
+    background: aliceblue;
+    width: 1px;
+    height: 93px;
+    margin: 0 90px;
+}
+
+.img-top{
+    position: relative;
+    top:-40px;
+    left:-16px;;
+    width: 35px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 55px;
+    left:-55px;
+    width: 150px;
+
+}
+
+.vertical-desc{
+    position: relative;
+    top:60px;
+    text-align: justify;
+    left:-65px;
+    font-weight: lighter;
+    font-size: 7px;
+    width:150px;
+    color: darkgrey;
+}
+
+#css .img-top{
+    top:-53px;
+}
+#css .vertical-title{
+    top: 42px;
+}
+#css .vertical-desc{
+    top: 46px;
+}
+
+#bootstrap .img-top{
+    top: -34px;
+}
+#bootstrap .vertical-title{
+    top: 69px;
+}
+#bootstrap .vertical-desc{ 
+    top: 73.5px;
+}
+#javascript .vertical-title{
+    top: 60px;
+}
+#javascript .vertical-desc{
+    top: 65px;
+}
+/* this CSS for the footer section */
+footer{
+  height: 300px;
+  display: flex;
+  margin-top: 250px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  background-color: #4AB3B9;
+}
+.left-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* border: 2px solid black; */
+  width: 40%;
+}
+
+.left-footer .talk_desc{
+  font-size:0.5rem ;
+  text-align: center;
+  font-weight: 300;
+  color:antiquewhite;
+}
+
+.left-footer .talk-button {
+  background-color:rgb(6, 80, 80);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.left-footer .talk-button:hover {
+  background-color: #FFFF00;
+  color: #333;
+}
+
+.right-footer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; ;
+  align-items: end;
+  justify-content: end;
+  /* border: 2px solid black; */
+  padding:0 0 5px 10px;
+}
+.right-footer ul{
+  list-style: none;
+}
+.right-footer .contact ul li span{
+    color: #FFFF00;
+    font-style: oblique;
+}
+.right-footer .logo ul{
+  width:270px;
+  display: flex;
+  margin-left: 6px;
+  
+}
+.right-footer .rf-heading{
+  /* border: #333 1px solid; */
+  width: 290px;
+  margin-bottom: 25px;
+}
+.right-footer .rf-heading h1{
+  font-size: 2.5rem;
+
+}
